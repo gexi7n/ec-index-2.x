@@ -1,0 +1,300 @@
+body,
+html {
+    height: 100%;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+dd {
+    margin: 5px 0;
+}
+
+figure {
+    margin: 0 auto !important;
+}
+
+blockquote {
+    padding: 0 !important;
+    padding-left: 10px !important;
+    margin: 0 0 20px;
+    font-size: 14px !important;
+    border-left: 5px solid #f1f1f1 !important;
+}
+
+p {
+    margin: 10px 0 !important;
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background: url(../images/login-background.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.div-transparent {
+    margin-bottom: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #aaa !important;
+}
+
+.navbar-custom {
+    background: #5CB5D8;
+    background-image: linear-gradient(90deg, #5DB4AE 0%, #5CB5D8 100%);
+    border: none;
+    border-radius: 0 !important;
+}
+
+.font-white {
+    color: white !important;
+}
+
+.form-card {
+    margin: 0 auto;
+    background: white;
+    border-radius: 4px;
+    padding: 10px 30px 60px 30px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.form-card-sm {
+    max-width: 360px;
+}
+
+.form-card-lg {
+    max-width: 640px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.sections {
+    padding: 50px 0;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.fa-bars:hover {
+    color: #46b8da;
+}
+
+.navbar-toggle,
+.collapsed {
+    border: none !important;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: transparent !important;
+}
+
+.collapsed {
+    background: transparent !important;
+}
+
+.top-nav-collapse {
+    background-image: linear-gradient(90deg, #5DB4AE 0%, #5CB5D8 100%) !important;
+    border: none !important;
+}
+
+.btn {
+    transition: .5s;
+    -moz-transition: .5s;
+    /* Firefox 4 */
+    -webkit-transition: .5s;
+    /* Safari 和 Chrome */
+    -o-transition: .5s;
+    /* Opera */
+}
+
+.navbar-nav>li>a {
+    color: #ddd !important;
+    transition: .2s;
+    -moz-transition: .2s;
+    /* Firefox 4 */
+    -webkit-transition: .2s;
+    /* Safari 和 Chrome */
+    -o-transition: .2s;
+    /* Opera */
+}
+
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:active {
+    color: white !important;
+    outline: none;
+}
+
+.download-type-image {
+    height: 120px;
+    width: 100%;
+    margin: 10px 0 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.download-type-image.ios {
+    background-image: url(../images/download-ios@2x.png);
+    background-size: 67px 77px;
+}
+
+.download-type-image.android {
+    background-image: url(../images/download-android@2x.png);
+    background-size: 71px 83px;
+}
+
+.download-type-image.qr {
+    position: relative;
+    background-image: url(../images/android-qr.png);
+    background-size: 120px 120px;
+}
+
+.download-card {
+    padding: 40px 0;
+}
+
+.download-desc {
+    color: #a6a6a6;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+#app-func {
+    background: #fafafa;
+}
+
+.download-card-dark {
+    background: white;
+    border: 1px solid #a6a6a6;
+    border-radius: 6px;
+}
+
+#func1,
+#func2,
+#func3 {
+    padding: 40px 0;
+    border-bottom: 1px dotted #a6a6a6;
+}
+
+#func3 {
+    border-bottom: none;
+}
+
+.func-image {
+    height: 60%;
+    width: 60%;
+}
+
+#func3-image {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 40px 0;
+    background: #333;
+    color: #a6a6a6;
+    text-align: center;
+}
+
+.shgbit-logo {
+    width: 40px;
+    height: 48px;
+}
+
+.phone-wrapper {
+    padding: 20px 0;
+    border: 2px dotted #333;
+}
+
+.text-rounded {
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding-top: 11px;
+    border: 2px solid #333;
+    border-radius: 60px;
+}
+
+.mail-link {
+    color: #333;
+    text-decoration: underline;
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 !important;
+        padding: 0 5px !important;
+    }
+    .form-card {
+        margin: 5px 0!important;
+        padding: 10px 15px 30px 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    h1,
+    h2,
+    h3 {
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
+    }
+    .intro {
+        padding-top: 60px;
+    }
+    .navbar-default .navbar-collapse {
+        background: #333;
+    }
+    .form-card {
+        margin: 0;
+        margin-top: 20px;
+        max-width: 100%;
+        border-radius: 0;
+        text-align: left;
+    }
+    .control-label {
+        display: none !important;
+    }
+    .login-btn-group {
+        margin-top: 10px;
+    }
+    .form-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .form-group {
+        margin-bottom: 10px !important;
+    }
+    .download-card {
+        border-bottom: 1px dotted #a6a6a6;
+    }
+}
+
+.btn-app {
+    width: 130px;
+}
+
+.input-icon {
+    background: white !important;
+}
+
+.version {
+    margin-top: 10px;
+    color: #eee;
+}
